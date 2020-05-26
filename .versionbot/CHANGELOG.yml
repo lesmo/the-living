@@ -1,4 +1,21 @@
 - commits:
+    - subject: Add README info
+      hash: d982a73b71306bd919279ce9f5877786a0a06fe4
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Alex
+    - subject: Add UPnP
+      hash: b3dcb6582dca3fdf661d6c29cbfe6142b68bfa52
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Alex
+  version: 3.0.0
+  date: 2020-05-26T14:00:16.336Z
+- commits:
     - subject: Add config.yml
       hash: b65bc482c3b36fcf35f642ff728e168a18317b3a
       body: |
