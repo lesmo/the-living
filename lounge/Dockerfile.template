@@ -1,0 +1,15 @@
+FROM balenalib/%%BALENA_MACHINE_NAME%%-node:latest-stretch-build
+
+# Expose the port
+ENV PORT 80
+EXPOSE ${PORT}
+
+# Setup the home path to docker-compose volume
+ENV THELOUNGE_HOME "/var/opt/thelounge"
+
+ENV NODE_ENV production
+
+# Install thelounge!
+RUN yarn --non-interactive --frozen-lockfile global add thelounge && yarn --non-interactive cache clean
+
+CMD ["thelounge", "start", "-c", "port=80"]
