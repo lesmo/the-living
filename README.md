@@ -4,7 +4,7 @@
 
 # Highlights
 
-- **Bluetooth, Airplay, Spotify Connect and UPnP**: Stream audio from your favourite music services or directly from your smartphone/computer using bluetooth or UPnP.
+- **Bluetooth, Airplay and Spotify Connect**: Stream audio from your favourite music services or directly from your smartphone/computer using bluetooth.
 - **Multi-room synchronous playing**: Play perfectly synchronized audio on multiple devices all over your place.
 - **Extended DAC support**: Upgrade your audio quality with one of our supported DACs
 
